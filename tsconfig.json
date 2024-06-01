@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // versi JS yg dipake
+        "module": "CommonJS", // jenis modul hasil kompilasi nanti
+        "rootDir": "./src", // root folder dari source files
+        "outDir": "./dist", // output folder hasil kompilasi
+        "strict": true, // menjalankan strict type checking
+        "esModuleInterop": true, // meng-compile es6 module ke commonjs
+        "skipLibCheck": true, // skip type-checkinWg default library
+        "forceConsistentCasingInFileNames": true, // pengecekan nama file
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
